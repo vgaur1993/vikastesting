@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity">
+
+	<test name="Test1">
+		<classes>
+
+
+
+			// RU Test cases
+
+			<class name="com.deere.ics.testcase.logintoApplication_ru_RU" />
+
+
+
+
+		</classes>
+	</test>
+	Test
+
+	<!-- <test name="BR_AG"> <classes> <class name="com.deere.ics.testcase.logintoApplication_pt_BR_AG" 
+		/> </classes> </test> Test -->
+
+</suite> <!-- Suite -->

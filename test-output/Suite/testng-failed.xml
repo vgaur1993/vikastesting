@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="BR_CF(failed)" parallel="tests">
+    <classes>
+      <class name="com.deere.ics.testcase.logintoApplication_en_US">
+        <methods>
+          <include name="mainTest"/>
+          <include name="SavetheCartTest"/>
+          <include name="UsertypeLinkTest"/>
+          <include name="getResults"/>
+          <include name="BuildyourProductTest"/>
+          <include name="logintoICSTest"/>
+          <include name="BasecodeSelectionTest"/>
+          <include name="CustomizeproductTest"/>
+          <include name="teardown"/>
+          <include name="ImpersonationTest"/>
+          <include name="ViewSummarypageTest"/>
+        </methods>
+      </class> <!-- com.deere.ics.testcase.logintoApplication_en_US -->
+      <class name="com.deere.ics.testcase.logintoApplication_en_UStest">
+        <methods>
+          <include name="BasecodeSelectionTest"/>
+          <include name="getResults"/>
+        </methods>
+      </class> <!-- com.deere.ics.testcase.logintoApplication_en_UStest -->
+    </classes>
+  </test> <!-- BR_CF(failed) -->
+</suite> <!-- Failed suite [Suite] -->

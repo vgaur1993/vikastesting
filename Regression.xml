@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+
+	<test name="Test1">
+		<classes>
+
+
+			// US Test cases
+			<class name="com.deere.ics.testcase.logintoApplication_en_US" />
+
+
+			// CA Test cases
+
+			<class name="com.deere.ics.testcase.logintoApplication_en_CA" />
+
+
+			// BR Test cases
+
+
+			<class
+				name="com.deere.ics.testcase.logintoApplication_pt_BR_CF" />
+
+			<class
+				name="com.deere.ics.testcase.logintoApplication_pt_BR_AG" />
+
+			// RU Test cases
+
+			<class name="com.deere.ics.testcase.logintoApplication_ru_RU" />
+
+		</classes>
+	</test>
+	Test
+
+	<!-- <test name="BR_AG"> <classes> <class name="com.deere.ics.testcase.logintoApplication_pt_BR_AG" 
+		/> </classes> </test> Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="34" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="478641" started-at="2020-09-21T10:30:18Z" finished-at="2020-09-21T10:38:17Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="478641" started-at="2020-09-21T10:30:18Z" finished-at="2020-09-21T10:38:17Z">
+      <class name="com.deere.ics.testcase.logintoApplication_pt_BR_CF">
+        <test-method status="PASS" signature="mainTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="mainTest" is-config="true" duration-ms="226" started-at="2020-09-21T16:00:18Z" finished-at="2020-09-21T16:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+        <test-method status="PASS" signature="ImpersonationTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="ImpersonationTest_pt_BR_CF" duration-ms="19491" started-at="2020-09-21T16:03:22Z" finished-at="2020-09-21T16:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImpersonationTest_pt_BR_CF -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:03:41Z" finished-at="2020-09-21T16:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImpersonationTest_pt_BR_CF status=SUCCESS method=logintoApplication_pt_BR_CF.ImpersonationTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="UsertypeLinkTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="UsertypeLinkTest_pt_BR_CF" duration-ms="6286" started-at="2020-09-21T16:03:41Z" finished-at="2020-09-21T16:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertypeLinkTest_pt_BR_CF -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:03:48Z" finished-at="2020-09-21T16:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UsertypeLinkTest_pt_BR_CF status=SUCCESS method=logintoApplication_pt_BR_CF.UsertypeLinkTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="SoldandShipToTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="SoldandShipToTest_pt_BR_CF" duration-ms="11942" started-at="2020-09-21T16:03:48Z" finished-at="2020-09-21T16:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoldandShipToTest_pt_BR_CF -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:04:00Z" finished-at="2020-09-21T16:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SoldandShipToTest_pt_BR_CF status=SUCCESS method=logintoApplication_pt_BR_CF.SoldandShipToTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BasecodeSelectionTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="BasecodeSelectionTest_pt_BR_CF" duration-ms="42329" started-at="2020-09-21T16:04:00Z" finished-at="2020-09-21T16:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasecodeSelectionTest_pt_BR_CF -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="getResults" is-config="true" duration-ms="2" started-at="2020-09-21T16:04:42Z" finished-at="2020-09-21T16:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasecodeSelectionTest_pt_BR_CF status=SUCCESS method=logintoApplication_pt_BR_CF.BasecodeSelectionTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BuildyourProductTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="BuildyourProductTest_pt_BR_CF" duration-ms="21532" started-at="2020-09-21T16:04:42Z" finished-at="2020-09-21T16:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildyourProductTest_pt_BR_CF -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:05:03Z" finished-at="2020-09-21T16:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BuildyourProductTest_pt_BR_CF status=SUCCESS method=logintoApplication_pt_BR_CF.BuildyourProductTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CustomizeproductTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="CustomizeproductTest_pt_BR_CF" duration-ms="1720" started-at="2020-09-21T16:05:03Z" finished-at="2020-09-21T16:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomizeproductTest_pt_BR_CF -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:05:05Z" finished-at="2020-09-21T16:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomizeproductTest_pt_BR_CF status=SUCCESS method=logintoApplication_pt_BR_CF.CustomizeproductTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="ViewSummarypageTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="ViewSummarypageTest_pt_BR_CF" duration-ms="9688" started-at="2020-09-21T16:05:05Z" finished-at="2020-09-21T16:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewSummarypageTest_pt_BR_CF -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="getResults" is-config="true" duration-ms="2" started-at="2020-09-21T16:05:15Z" finished-at="2020-09-21T16:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewSummarypageTest_pt_BR_CF status=SUCCESS method=logintoApplication_pt_BR_CF.ViewSummarypageTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="SavetheCartTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="SavetheCartTest_pt_BR_CF" duration-ms="20090" started-at="2020-09-21T16:05:15Z" finished-at="2020-09-21T16:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SavetheCartTest_pt_BR_CF -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:05:35Z" finished-at="2020-09-21T16:05:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SavetheCartTest_pt_BR_CF status=SUCCESS method=logintoApplication_pt_BR_CF.SavetheCartTest_pt_BR_CF()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_CF@1f6c9cd8]" name="teardown" is-config="true" duration-ms="1953" started-at="2020-09-21T16:08:17Z" finished-at="2020-09-21T16:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.deere.ics.testcase.logintoApplication_pt_BR_CF -->
+      <class name="com.deere.ics.testcase.logintoApplication_pt_BR_AG">
+        <test-method status="PASS" signature="ImpersonationTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="ImpersonationTest_pt_BR_AG" duration-ms="19291" started-at="2020-09-21T16:05:35Z" finished-at="2020-09-21T16:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImpersonationTest_pt_BR_AG -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:05:54Z" finished-at="2020-09-21T16:05:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImpersonationTest_pt_BR_AG status=SUCCESS method=logintoApplication_pt_BR_AG.ImpersonationTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="UsertypeLinkTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="UsertypeLinkTest_pt_BR_AG" duration-ms="16274" started-at="2020-09-21T16:05:54Z" finished-at="2020-09-21T16:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertypeLinkTest_pt_BR_AG -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:06:11Z" finished-at="2020-09-21T16:06:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UsertypeLinkTest_pt_BR_AG status=SUCCESS method=logintoApplication_pt_BR_AG.UsertypeLinkTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="SoldandShipToTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="SoldandShipToTest_pt_BR_AG" duration-ms="14183" started-at="2020-09-21T16:06:11Z" finished-at="2020-09-21T16:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoldandShipToTest_pt_BR_AG -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="getResults" is-config="true" duration-ms="3" started-at="2020-09-21T16:06:25Z" finished-at="2020-09-21T16:06:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SoldandShipToTest_pt_BR_AG status=SUCCESS method=logintoApplication_pt_BR_AG.SoldandShipToTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BasecodeSelectionTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="BasecodeSelectionTest_pt_BR_AG" duration-ms="19675" started-at="2020-09-21T16:06:25Z" finished-at="2020-09-21T16:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasecodeSelectionTest_pt_BR_AG -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="getResults" is-config="true" duration-ms="3" started-at="2020-09-21T16:06:44Z" finished-at="2020-09-21T16:06:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasecodeSelectionTest_pt_BR_AG status=SUCCESS method=logintoApplication_pt_BR_AG.BasecodeSelectionTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BuildyourProductTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="BuildyourProductTest_pt_BR_AG" duration-ms="15271" started-at="2020-09-21T16:06:44Z" finished-at="2020-09-21T16:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildyourProductTest_pt_BR_AG -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="getResults" is-config="true" duration-ms="3" started-at="2020-09-21T16:07:00Z" finished-at="2020-09-21T16:07:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BuildyourProductTest_pt_BR_AG status=SUCCESS method=logintoApplication_pt_BR_AG.BuildyourProductTest_pt_BR_AG()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CustomizeproductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="CustomizeproductTest" duration-ms="1565" started-at="2020-09-21T16:07:00Z" finished-at="2020-09-21T16:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomizeproductTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:07:01Z" finished-at="2020-09-21T16:07:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomizeproductTest status=SUCCESS method=logintoApplication_pt_BR_AG.CustomizeproductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="ViewSummarypageTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="ViewSummarypageTest" duration-ms="8606" started-at="2020-09-21T16:07:01Z" finished-at="2020-09-21T16:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewSummarypageTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:07:10Z" finished-at="2020-09-21T16:07:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewSummarypageTest status=SUCCESS method=logintoApplication_pt_BR_AG.ViewSummarypageTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="SavetheCartTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="SavetheCartTest" duration-ms="17674" started-at="2020-09-21T16:07:10Z" finished-at="2020-09-21T16:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SavetheCartTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:07:28Z" finished-at="2020-09-21T16:07:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SavetheCartTest status=SUCCESS method=logintoApplication_pt_BR_AG.SavetheCartTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_pt_BR_AG@56113384] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- com.deere.ics.testcase.logintoApplication_pt_BR_AG -->
+      <class name="com.deere.ics.testcase.logintoApplication_ru_RU">
+        <test-method status="PASS" signature="ImpersonationTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604]" name="ImpersonationTest" duration-ms="17560" started-at="2020-09-21T16:07:28Z" finished-at="2020-09-21T16:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImpersonationTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:07:45Z" finished-at="2020-09-21T16:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImpersonationTest status=SUCCESS method=logintoApplication_ru_RU.ImpersonationTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="UsertypeLinkTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604]" name="UsertypeLinkTest" duration-ms="8588" started-at="2020-09-21T16:07:45Z" finished-at="2020-09-21T16:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertypeLinkTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:07:54Z" finished-at="2020-09-21T16:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UsertypeLinkTest status=SUCCESS method=logintoApplication_ru_RU.UsertypeLinkTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="FAIL" signature="BasecodeSelectionTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604]" name="BasecodeSelectionTest" duration-ms="23175" started-at="2020-09-21T16:07:54Z" finished-at="2020-09-21T16:08:17Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value="Искать"]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-A4U8454', ip: '10.216.179.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\Users\j8lajag\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 629c2bd335fd4621105791676211e01b
+*** Element info: {Using=xpath, value=//input[@value="Искать"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value="Искать"]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-A4U8454', ip: '10.216.179.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\Users\j8lajag\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 629c2bd335fd4621105791676211e01b
+*** Element info: {Using=xpath, value=//input[@value="Искать"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+	at com.deere.ics.Business.applicationLogin_ru_RU.BasecodeSelection(applicationLogin_ru_RU.java:115)
+	at com.deere.ics.testcase.logintoApplication_ru_RU.BasecodeSelectionTest(logintoApplication_ru_RU.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasecodeSelectionTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604]" name="getResults" is-config="true" duration-ms="5" started-at="2020-09-21T16:08:17Z" finished-at="2020-09-21T16:08:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasecodeSelectionTest status=FAILURE method=logintoApplication_ru_RU.BasecodeSelectionTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_ru_RU@52066604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- com.deere.ics.testcase.logintoApplication_ru_RU -->
+      <class name="com.deere.ics.testcase.logintoApplication_en_CA">
+        <test-method status="PASS" signature="ImpersonationTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="ImpersonationTest" duration-ms="17489" started-at="2020-09-21T16:02:07Z" finished-at="2020-09-21T16:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImpersonationTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:02:24Z" finished-at="2020-09-21T16:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImpersonationTest status=SUCCESS method=logintoApplication_en_CA.ImpersonationTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="UsertypeLinkTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="UsertypeLinkTest" duration-ms="8719" started-at="2020-09-21T16:02:24Z" finished-at="2020-09-21T16:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertypeLinkTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="getResults" is-config="true" duration-ms="2" started-at="2020-09-21T16:02:33Z" finished-at="2020-09-21T16:02:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UsertypeLinkTest status=SUCCESS method=logintoApplication_en_CA.UsertypeLinkTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BasecodeSelectionTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="BasecodeSelectionTest" duration-ms="19334" started-at="2020-09-21T16:02:33Z" finished-at="2020-09-21T16:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasecodeSelectionTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:02:52Z" finished-at="2020-09-21T16:02:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasecodeSelectionTest status=SUCCESS method=logintoApplication_en_CA.BasecodeSelectionTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BuildyourProductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="BuildyourProductTest" duration-ms="17256" started-at="2020-09-21T16:02:52Z" finished-at="2020-09-21T16:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildyourProductTest -->
+        <test-method status="PASS" signature="CustomizeproductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="CustomizeproductTest" duration-ms="2129" started-at="2020-09-21T16:03:09Z" finished-at="2020-09-21T16:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomizeproductTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:03:09Z" finished-at="2020-09-21T16:03:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BuildyourProductTest status=SUCCESS method=logintoApplication_en_CA.BuildyourProductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:03:12Z" finished-at="2020-09-21T16:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomizeproductTest status=SUCCESS method=logintoApplication_en_CA.CustomizeproductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="ViewSummarypageTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="ViewSummarypageTest" duration-ms="3366" started-at="2020-09-21T16:03:12Z" finished-at="2020-09-21T16:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewSummarypageTest -->
+        <test-method status="PASS" signature="SavetheCartTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="SavetheCartTest" duration-ms="6890" started-at="2020-09-21T16:03:15Z" finished-at="2020-09-21T16:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SavetheCartTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:03:15Z" finished-at="2020-09-21T16:03:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewSummarypageTest status=SUCCESS method=logintoApplication_en_CA.ViewSummarypageTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:03:22Z" finished-at="2020-09-21T16:03:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SavetheCartTest status=SUCCESS method=logintoApplication_en_CA.SavetheCartTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_CA@340b9973] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- com.deere.ics.testcase.logintoApplication_en_CA -->
+      <class name="com.deere.ics.testcase.logintoApplication_en_US">
+        <test-method status="PASS" signature="logintoICSTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="logintoICSTest" duration-ms="14761" started-at="2020-09-21T16:00:18Z" finished-at="2020-09-21T16:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoICSTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="getResults" is-config="true" duration-ms="7" started-at="2020-09-21T16:00:33Z" finished-at="2020-09-21T16:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintoICSTest status=SUCCESS method=logintoApplication_en_US.logintoICSTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="ImpersonationTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="ImpersonationTest" duration-ms="13192" started-at="2020-09-21T16:00:33Z" finished-at="2020-09-21T16:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImpersonationTest -->
+        <test-method status="PASS" signature="UsertypeLinkTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="UsertypeLinkTest" duration-ms="8727" started-at="2020-09-21T16:00:46Z" finished-at="2020-09-21T16:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsertypeLinkTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:00:46Z" finished-at="2020-09-21T16:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ImpersonationTest status=SUCCESS method=logintoApplication_en_US.ImpersonationTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:00:55Z" finished-at="2020-09-21T16:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UsertypeLinkTest status=SUCCESS method=logintoApplication_en_US.UsertypeLinkTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BasecodeSelectionTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="BasecodeSelectionTest" duration-ms="24355" started-at="2020-09-21T16:00:55Z" finished-at="2020-09-21T16:01:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasecodeSelectionTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="getResults" is-config="true" duration-ms="0" started-at="2020-09-21T16:01:19Z" finished-at="2020-09-21T16:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasecodeSelectionTest status=SUCCESS method=logintoApplication_en_US.BasecodeSelectionTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BuildyourProductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="BuildyourProductTest" duration-ms="19248" started-at="2020-09-21T16:01:19Z" finished-at="2020-09-21T16:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildyourProductTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:01:39Z" finished-at="2020-09-21T16:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BuildyourProductTest status=SUCCESS method=logintoApplication_en_US.BuildyourProductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CustomizeproductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="CustomizeproductTest" duration-ms="4310" started-at="2020-09-21T16:01:39Z" finished-at="2020-09-21T16:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomizeproductTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:01:43Z" finished-at="2020-09-21T16:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CustomizeproductTest status=SUCCESS method=logintoApplication_en_US.CustomizeproductTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="ViewSummarypageTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="ViewSummarypageTest" duration-ms="6392" started-at="2020-09-21T16:01:43Z" finished-at="2020-09-21T16:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewSummarypageTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="getResults" is-config="true" duration-ms="2" started-at="2020-09-21T16:01:49Z" finished-at="2020-09-21T16:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewSummarypageTest status=SUCCESS method=logintoApplication_en_US.ViewSummarypageTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="SavetheCartTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="SavetheCartTest" duration-ms="17416" started-at="2020-09-21T16:01:49Z" finished-at="2020-09-21T16:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SavetheCartTest -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39]" name="getResults" is-config="true" duration-ms="1" started-at="2020-09-21T16:02:07Z" finished-at="2020-09-21T16:02:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SavetheCartTest status=SUCCESS method=logintoApplication_en_US.SavetheCartTest()[pri:0, instance:com.deere.ics.testcase.logintoApplication_en_US@4a194c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- com.deere.ics.testcase.logintoApplication_en_US -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Regression -->
+</testng-results>

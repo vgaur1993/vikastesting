@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test1</td><td class="numi">33</td><td class="numi">33</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">478.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test1 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_ru_RU</td><td><a href="#m1"><b>BasecodeSelectionTest</b>  </a></td><td class="numi">1</td><td>1600684674188</td><td class="numi">23175</td></tr>
+<tr><th colspan="4">Test1 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_US</td><td><a href="#m2"><b>BasecodeSelectionTest</b>  </a></td><td class="numi">1</td><td>1600684255439</td><td class="numi">24355</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_CA</td><td><a href="#m3"><b>BasecodeSelectionTest</b>  </a></td><td class="numi">1</td><td>1600684353391</td><td class="numi">19334</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_AG</td><td><a href="#m4"><b>BasecodeSelectionTest_pt_BR_AG</b>  </a></td><td class="numi">1</td><td>1600684585231</td><td class="numi">19675</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_CF</td><td><a href="#m5"><b>BasecodeSelectionTest_pt_BR_CF</b>  </a></td><td class="numi">1</td><td>1600684440103</td><td class="numi">42329</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_US</td><td><a href="#m6"><b>BuildyourProductTest</b>  </a></td><td class="numi">1</td><td>1600684279796</td><td class="numi">19248</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_CA</td><td><a href="#m7"><b>BuildyourProductTest</b>  </a></td><td class="numi">1</td><td>1600684372728</td><td class="numi">17256</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_AG</td><td><a href="#m8"><b>BuildyourProductTest_pt_BR_AG</b>  </a></td><td class="numi">1</td><td>1600684604910</td><td class="numi">15271</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_CF</td><td><a href="#m9"><b>BuildyourProductTest_pt_BR_CF</b>  </a></td><td class="numi">1</td><td>1600684482434</td><td class="numi">21532</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_US</td><td><a href="#m10"><b>CustomizeproductTest</b>  </a></td><td class="numi">1</td><td>1600684299046</td><td class="numi">4310</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_CA</td><td><a href="#m11"><b>CustomizeproductTest</b>  </a></td><td class="numi">1</td><td>1600684389985</td><td class="numi">2129</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_AG</td><td><a href="#m12"><b>CustomizeproductTest</b>  </a></td><td class="numi">1</td><td>1600684620185</td><td class="numi">1565</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_CF</td><td><a href="#m13"><b>CustomizeproductTest_pt_BR_CF</b>  </a></td><td class="numi">1</td><td>1600684503968</td><td class="numi">1720</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_US</td><td><a href="#m14"><b>ImpersonationTest</b>  </a></td><td class="numi">1</td><td>1600684233511</td><td class="numi">13192</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_CA</td><td><a href="#m15"><b>ImpersonationTest</b>  </a></td><td class="numi">1</td><td>1600684327177</td><td class="numi">17489</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_ru_RU</td><td><a href="#m16"><b>ImpersonationTest</b>  </a></td><td class="numi">1</td><td>1600684648036</td><td class="numi">17560</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_AG</td><td><a href="#m17"><b>ImpersonationTest_pt_BR_AG</b>  </a></td><td class="numi">1</td><td>1600684535477</td><td class="numi">19291</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_CF</td><td><a href="#m18"><b>ImpersonationTest_pt_BR_CF</b>  </a></td><td class="numi">1</td><td>1600684402376</td><td class="numi">19491</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_US</td><td><a href="#m19"><b>SavetheCartTest</b>  </a></td><td class="numi">1</td><td>1600684309758</td><td class="numi">17416</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_CA</td><td><a href="#m20"><b>SavetheCartTest</b>  </a></td><td class="numi">1</td><td>1600684395484</td><td class="numi">6890</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_AG</td><td><a href="#m21"><b>SavetheCartTest</b>  </a></td><td class="numi">1</td><td>1600684630361</td><td class="numi">17674</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_CF</td><td><a href="#m22"><b>SavetheCartTest_pt_BR_CF</b>  </a></td><td class="numi">1</td><td>1600684515385</td><td class="numi">20090</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_AG</td><td><a href="#m23"><b>SoldandShipToTest_pt_BR_AG</b>  </a></td><td class="numi">1</td><td>1600684571045</td><td class="numi">14183</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_CF</td><td><a href="#m24"><b>SoldandShipToTest_pt_BR_CF</b>  </a></td><td class="numi">1</td><td>1600684428159</td><td class="numi">11942</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_US</td><td><a href="#m25"><b>UsertypeLinkTest</b>  </a></td><td class="numi">1</td><td>1600684246709</td><td class="numi">8727</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_CA</td><td><a href="#m26"><b>UsertypeLinkTest</b>  </a></td><td class="numi">1</td><td>1600684344669</td><td class="numi">8719</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_ru_RU</td><td><a href="#m27"><b>UsertypeLinkTest</b>  </a></td><td class="numi">1</td><td>1600684665597</td><td class="numi">8588</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_AG</td><td><a href="#m28"><b>UsertypeLinkTest_pt_BR_AG</b>  </a></td><td class="numi">1</td><td>1600684554769</td><td class="numi">16274</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_CF</td><td><a href="#m29"><b>UsertypeLinkTest_pt_BR_CF</b>  </a></td><td class="numi">1</td><td>1600684421871</td><td class="numi">6286</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_US</td><td><a href="#m30"><b>ViewSummarypageTest</b>  </a></td><td class="numi">1</td><td>1600684303363</td><td class="numi">6392</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_CA</td><td><a href="#m31"><b>ViewSummarypageTest</b>  </a></td><td class="numi">1</td><td>1600684392116</td><td class="numi">3366</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_AG</td><td><a href="#m32"><b>ViewSummarypageTest</b>  </a></td><td class="numi">1</td><td>1600684621752</td><td class="numi">8606</td></tr>
+<tr class="passedeven"><td rowspan="1">com.deere.ics.testcase.logintoApplication_pt_BR_CF</td><td><a href="#m33"><b>ViewSummarypageTest_pt_BR_CF</b>  </a></td><td class="numi">1</td><td>1600684505690</td><td class="numi">9688</td></tr>
+<tr class="passedodd"><td rowspan="1">com.deere.ics.testcase.logintoApplication_en_US</td><td><a href="#m34"><b>logintoICSTest</b>  </a></td><td class="numi">1</td><td>1600684218742</td><td class="numi">14761</td></tr>
+</table>
+<h1>Test1</h1>
+<h2 id="m1">com.deere.ics.testcase.logintoApplication_ru_RU:BasecodeSelectionTest</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&quot;??????&quot;]&quot;}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;4.0.0-alpha-1&apos;, revision: &apos;d1d3728cae&apos;, time: &apos;2019-04-24T13:42:21&apos;
+System info: host: &apos;DESKTOP-A4U8454&apos;, ip: &apos;10.216.179.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: D:\Users\j8lajag\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 629c2bd335fd4621105791676211e01b
+*** Element info: {Using=xpath, value=//input[@value=&quot;??????&quot;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+<br/>at com.deere.ics.Business.applicationLogin_ru_RU.BasecodeSelection(applicationLogin_ru_RU.java:115)
+<br/>at com.deere.ics.testcase.logintoApplication_ru_RU.BasecodeSelectionTest(logintoApplication_ru_RU.java:69)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.deere.ics.testcase.logintoApplication_ru_RU:UsertypeLinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.deere.ics.testcase.logintoApplication_pt_BR_AG:ViewSummarypageTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.deere.ics.testcase.logintoApplication_en_CA:CustomizeproductTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.deere.ics.testcase.logintoApplication_en_CA:BuildyourProductTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.deere.ics.testcase.logintoApplication_pt_BR_CF:CustomizeproductTest_pt_BR_CF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.deere.ics.testcase.logintoApplication_en_US:ImpersonationTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.deere.ics.testcase.logintoApplication_pt_BR_AG:BuildyourProductTest_pt_BR_AG</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.deere.ics.testcase.logintoApplication_en_CA:ImpersonationTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.deere.ics.testcase.logintoApplication_en_CA:UsertypeLinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.deere.ics.testcase.logintoApplication_en_US:BasecodeSelectionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.deere.ics.testcase.logintoApplication_pt_BR_CF:ViewSummarypageTest_pt_BR_CF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.deere.ics.testcase.logintoApplication_pt_BR_AG:UsertypeLinkTest_pt_BR_AG</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.deere.ics.testcase.logintoApplication_en_US:UsertypeLinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.deere.ics.testcase.logintoApplication_ru_RU:ImpersonationTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.deere.ics.testcase.logintoApplication_pt_BR_AG:CustomizeproductTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.deere.ics.testcase.logintoApplication_pt_BR_CF:UsertypeLinkTest_pt_BR_CF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.deere.ics.testcase.logintoApplication_pt_BR_AG:BasecodeSelectionTest_pt_BR_AG</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.deere.ics.testcase.logintoApplication_pt_BR_AG:SoldandShipToTest_pt_BR_AG</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.deere.ics.testcase.logintoApplication_pt_BR_CF:SavetheCartTest_pt_BR_CF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.deere.ics.testcase.logintoApplication_pt_BR_AG:ImpersonationTest_pt_BR_AG</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.deere.ics.testcase.logintoApplication_pt_BR_CF:ImpersonationTest_pt_BR_CF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.deere.ics.testcase.logintoApplication_en_US:ViewSummarypageTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.deere.ics.testcase.logintoApplication_en_US:logintoICSTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.deere.ics.testcase.logintoApplication_en_CA:SavetheCartTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.deere.ics.testcase.logintoApplication_pt_BR_AG:SavetheCartTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.deere.ics.testcase.logintoApplication_en_CA:ViewSummarypageTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.deere.ics.testcase.logintoApplication_en_US:BuildyourProductTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.deere.ics.testcase.logintoApplication_pt_BR_CF:BuildyourProductTest_pt_BR_CF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.deere.ics.testcase.logintoApplication_en_US:CustomizeproductTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.deere.ics.testcase.logintoApplication_en_US:SavetheCartTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.deere.ics.testcase.logintoApplication_pt_BR_CF:SoldandShipToTest_pt_BR_CF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.deere.ics.testcase.logintoApplication_pt_BR_CF:BasecodeSelectionTest_pt_BR_CF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">com.deere.ics.testcase.logintoApplication_en_CA:BasecodeSelectionTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

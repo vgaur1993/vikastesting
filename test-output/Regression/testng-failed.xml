@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.deere.ics.testcase.logintoApplication_pt_BR_CF">
+        <methods>
+          <include name="mainTest"/>
+          <include name="getResults"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.deere.ics.testcase.logintoApplication_pt_BR_CF -->
+      <class name="com.deere.ics.testcase.logintoApplication_ru_RU">
+        <methods>
+          <include name="BasecodeSelectionTest"/>
+          <include name="getResults"/>
+        </methods>
+      </class> <!-- com.deere.ics.testcase.logintoApplication_ru_RU -->
+      <class name="com.deere.ics.testcase.logintoApplication_en_US">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class> <!-- com.deere.ics.testcase.logintoApplication_en_US -->
+      <class name="com.deere.ics.testcase.logintoApplication_en_CA">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class> <!-- com.deere.ics.testcase.logintoApplication_en_CA -->
+      <class name="com.deere.ics.testcase.logintoApplication_pt_BR_AG">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class> <!-- com.deere.ics.testcase.logintoApplication_pt_BR_AG -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Regression] -->
